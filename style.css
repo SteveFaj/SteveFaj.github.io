@@ -1,0 +1,107 @@
+
+.contenedor-principal{
+    position: absolute;
+    text-align: center ;
+    background-color: rgb(195, 210, 218);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/imagenes/composition-birthday-elements.jpg);
+    overflow: hidden;
+    
+}
+
+
+.phome{
+
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    text-shadow: 1px 1px 20px -5px rgba(0,0,0,0.35);;;
+    
+}
+
+.buttonI{
+    
+    background-color: rgb(154, 221, 221);
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 8px;
+    font-size: 20px;
+    
+}
+
+h1{
+    padding-top: 3cm;
+    font-size: 40px;
+}
+
+.noticia{
+    width: 100vw;
+    height: 100vh;
+    text-shadow: 20px;
+    background-color: rgb(140, 144, 199);
+    background-size: cover;
+    text-align: center;
+    padding: 2cm;
+    font-size: 10px;
+    
+    
+}
+
+.h1noticia{
+    font-size: 50px;
+    text-shadow: 10px
+}
+p{
+    font-size: 20px;
+}
+
+.nav{
+    margin-left: 20cm;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botonoticia{
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.divfoto{
+    margin-left: 5cm;
+    text-align: start;
+}
+
+.containerGalery{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(206, 158, 185);
+}
+
+.containerfoto{
+    box-shadow: 3px 3px 25px -10px rgba(0,0,0,0.35);;
+    
+    display: flex; 
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    background-image: url(./assets/imagenes/istockphoto-1386740242-612x612.jpg);
+    background-position: center;
+    transition: background 50s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+   
+}
+.containerfoto:active{
+    background-image: url(./assets/imagenes/gettyimages-1284445887-612x612.jpg);
+    background-position: center center;
+    
+}
