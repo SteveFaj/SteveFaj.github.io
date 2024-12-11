@@ -1,0 +1,126 @@
+
+.contenedor-principal{
+    position: absolute;
+    text-align: center ;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/imagenes/composition-birthday-elements.jpg);
+    background-size: cover;
+    overflow: -moz-hidden-unscrollable;
+    
+}
+
+
+.phome{
+
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    text-shadow: 1px 1px 20px -5px rgba(0,0,0,0.35);;;
+    
+}
+
+.buttonI{
+    
+    background-color: rgb(154, 221, 221);
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 8px;
+    font-size: 20px;
+    
+}
+
+h1{
+    padding-top: 1cm;
+    font-size: 40px;
+}
+
+.noticia{
+    width: 100vw;
+    height: 100vh;
+    text-shadow: 20px;
+    background-image: url(./assets/imagenes/5208092.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 1cm;
+    font-size: 20px;
+    overflow:auto;
+    
+    
+}
+
+.h1noticia{
+    font-size: 50px;
+    text-shadow: 10px
+}
+p{
+    font-size: 25px;
+}
+
+.nav{
+    margin-left: 20cm;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botonoticia{
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.divfoto{
+    margin-left: 5cm;
+    text-align: start;
+}
+
+.containerGalery{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/imagenes/pexels-moose-photos-170195-1037993.jpg);
+    background-size: cover;
+}
+
+.divh2{
+    margin-top: 1cm;
+}
+
+.containerfoto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 30px;
+    border-color: aquamarine;
+    margin-top: 3cm;
+    box-shadow: 3px 3px 25px -10px rgba(0,0,0,0.35); 
+    display: flex; 
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    background-image: url(./assets/imagenes/istockphoto-1386740242-612x612.jpg);
+    background-size: contain;
+    background-position: center;
+    transition: background 50s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+   
+}
+
+#evento-click{
+    display: none;
+}
+
+#evento-click:checked ~ .containerfoto{
+
+    
+    background-image: url(./assets/imagenes/gettyimages-1284445887-612x612.jpg);
+    background-position: center center;
+
+}
+
