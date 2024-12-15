@@ -10,30 +10,41 @@
     
 }
 
+a{
+    text-decoration: none;
+    color: azure;
+}
 
 .phome{
 
     font-size: medium;
     font-style: oblique;
     font-family: 'Lucida Sans';
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 1px 1px 20px -5px rgba(0,0,0,0.35);;;
+    margin-bottom: 1cm;
     
 }
 
 .buttonI{
-    
-    background-color: rgb(154, 221, 221);
-    border-radius: 10px;
-    text-decoration: underline;
-    padding: 8px;
-    font-size: 20px;
+    margin-top: 1cm;
+    background: rgb(73, 222, 241);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    text-decoration: none;
     
 }
 
 h1{
+    margin-top: 1cm;
     padding-top: 1cm;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .noticia{
@@ -69,9 +80,16 @@ p{
 }
 
 .botonoticia{
-    background-color: blueviolet;
-    border-radius: 20px;
-    font-size: 20px;
+    text-decoration-line: none;
+    background: rgb(73, 222, 241);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
 }
 
 .divfoto{
@@ -86,8 +104,9 @@ p{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-image: url(./assets/imagenes/pexels-moose-photos-170195-1037993.jpg);
+    background-image: url(./assets/imagenes/5208092.jpg);
     background-size: cover;
+    transition: all 300ms;
 }
 
 .divh2{
@@ -99,28 +118,94 @@ p{
     font-size: 30px;
     border-radius: 30px;
     border-color: aquamarine;
-    margin-top: 3cm;
+    margin-top: 1cm;
     box-shadow: 3px 3px 25px -10px rgba(0,0,0,0.35); 
     display: flex; 
     height: 400px;
     width: 500px;
     align-items: center;
     background-image: url(./assets/imagenes/istockphoto-1386740242-612x612.jpg);
-    background-size: contain;
+    background-size:cover;
     background-position: center;
-    transition: background 50s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    transition: background 10s cubic-bezier(0.175, 0.885, 0.32, 1.275)
    
 }
 
+.perro{
+    margin-top: 1cm;
+    margin-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border-color: black;
+    color: white;
+    text-shadow: 20px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.descubrelo{
+    margin-top: 0;
+    margin-bottom: 2px;
+    background: rgb(73, 222, 241);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+.descubrelo2{
+    margin-top: 0;
+    background: rgb(73, 222, 241);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px; 
+}
 #evento-click{
     display: none;
 }
 
-#evento-click:checked ~ .containerfoto{
+#evento-click2{
+    display: none;
+}
+
+#evento-click2:checked ~ .descubrelo{
+    visibility: hidden;
+}
+
+#evento-click2:checked ~ .descubrelo2{
+    visibility: hidden;
+}
+
+#evento-click:checked ~ .containerGalery{
+    background-image: url(./assets/imagenes/vecteezy_baby-shower-cute-background-illustration_23802191.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#evento-click2:checked ~ .containerfoto{
 
     
-    background-image: url(./assets/imagenes/gettyimages-1284445887-612x612.jpg);
+    background-image: url(./assets/imagenes/IMG_0446.jpeg);
+    background-size: cover;
     background-position: center center;
 
 }
+
+#evento-click2:checked ~ .perro{
+    visibility: visible;
+}
+
+
+
+
+
+
 
