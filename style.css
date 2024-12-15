@@ -33,7 +33,7 @@ a{
     border: none;
     padding: 16px 32px;
     color: azure;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     position: relative;
     border-radius: 12px;
@@ -92,7 +92,7 @@ p{
     border: none;
     padding: 16px 32px;
     color: azure;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     position: relative;
     border-radius: 12px;
@@ -157,7 +157,7 @@ p{
     border: none;
     padding: 22px 40px;
     color: azure;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     position: relative;
     border-radius: 12px;
@@ -169,7 +169,7 @@ p{
     border: none;
     padding: 22px 40px;
     color: azure;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     position: relative;
     border-radius: 12px; 
