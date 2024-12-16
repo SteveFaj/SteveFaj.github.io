@@ -193,7 +193,7 @@ p{
 #evento-click:checked ~ .containerGalery{
     background-image: url(./assets/imagenes/vecteezy_baby-shower-cute-background-illustration_23802191.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: right
 }
 
 #evento-click2:checked ~ .containerfoto{
